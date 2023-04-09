@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="desain.css">
+</head>
+<body>
+  <table id="nilai">
+    <tr>
+      <th>No</th>
+      <th>Nama</th>
+      <th>LUNAS</th>
+      <th>jumlah</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>ALFIAN</td>
+      <td>-</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>RADIT</td>
+      <td>-</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>TORIK</td>
+      <td>-</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>BINTANG</td>
+      <td>-</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>ADABY</td>
+      <td>-</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>PEDRO</td>
+      <td>-</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>RAKHA</td>
+      <td>-</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>RAKHA</td>
+      <td>-</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>BENY</td>
+      <td>-</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>AHMES</td>
+      <td>-</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>ADI</td>
+      <td>-</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>FIKRI</td>
+      <td>-</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>AHNAF</td>
+      <td>-</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>ALIF</td>
+      <td>-</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>ALIF</td>
+      <td>-</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>SAVIO</td>
+      <td>-</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>AHMES</td>
+      <td>-</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>LILA</td>
+      <td>-</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>AYLA</td>
+      <td>-</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>HANA</td>
+      <td>-</td>
+      <td></td>
+    </tr>
+  </table>
+    <span id="hasil"></span>
+<script>
+		var table = document.getElementById("nilai"), sumHsl = 0;
+		for(var t = 1; t < table.rows.length; t++)
+		{
+			sumHsl = sumHsl + parseInt(table.rows[t].cells[3].innerHTML);
+		}
+		document.getElementById("hasil").innerHTML = "Sum Value = "+ sumHsl;
+		
+	</script>
+</body>
+</body>
+</html>
